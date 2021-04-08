@@ -131,7 +131,7 @@ def keyup(key):
         paddle2_vel = 0
       
 # create frame
-frame = simplegui.create_frame("Pong", width, height)
+frame = simplegui.create_frame("Pong by mukul", width, height)
 frame.set_draw_handler(draw)
 frame.set_keydown_handler(keydown)
 frame.set_keyup_handler(keyup)
